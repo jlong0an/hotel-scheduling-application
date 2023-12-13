@@ -88,9 +88,9 @@ export class AppComponent implements OnInit{
 
     return this.httpClient.get(this.baseURL + '/resources/welcome', {responseType: 'json'});
   }
+  protected readonly Math = Math;
+}
 
-
-  }
 
 
 
